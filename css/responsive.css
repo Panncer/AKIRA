@@ -1,0 +1,22 @@
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .menu {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .menu ul {
+      text-align: center;
+    }
+  
+    .menu li {
+      display: inline-block;
+      margin: 10px;
+    }
+  
+    table {
+      display: block;
+      overflow-x: auto; /* Scroll horizontal para tablas */
+    }
+  }

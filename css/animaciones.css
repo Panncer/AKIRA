@@ -1,0 +1,19 @@
+/* Animación para el stock bajo */
+@keyframes blink {
+    50% { opacity: 0.5; }
+  }
+  
+  .rojo {
+    color: #dc3545; /* Color rojo para resaltar */
+    font-weight: bold;
+    animation: blink 1s infinite; /* Animación de parpadeo */
+  }
+  
+  /* Animación para fechas próximas de mantenimiento */
+  @keyframes flash {
+    50% { background-color: #ffff99; } /* Color amarillo suave para resaltar */
+  }
+  
+  .proximo {
+    animation: flash 1s infinite;
+  }
